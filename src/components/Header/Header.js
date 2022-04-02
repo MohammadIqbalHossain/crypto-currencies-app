@@ -21,7 +21,7 @@ const Header = () => {
                     Contact
                 </NavLink>
 
-                <NavLink to='/about'>
+                <NavLink to='/about' className={({ isActive }) => isActive ? "text-orange-400 underline underline-offset-4" : ""}>
                     About
                 </NavLink>
             </div>
