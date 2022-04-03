@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet, useNavigate } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 
 
 const Content = () => {
@@ -14,7 +14,7 @@ const Content = () => {
 
                 <button onClick={() => navigate(`bd-address`)} className="border-2 py-2 px-4 bg-blue-500 font-semibold text-white ">BD Address</button>
             </div>
-            <div className="content">
+            <div className="mt-20 w-[800px]">
                 <Outlet />
             </div>
         </div>

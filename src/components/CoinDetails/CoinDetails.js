@@ -7,7 +7,7 @@ const CoinDetails = () => {
     const { id } = useParams();
     const [details, setDetails] = useState({});
     console.log(details);
-    const { name, symbol, market_cap_rank, country_origin,contact, hashing_algorithm, genesis_date, last_updated, community_score, developer_score, liquidity_score, public_interest_score} = details;
+    const { name, market_cap_rank, country_origin,contact, hashing_algorithm, genesis_date, last_updated, community_score, developer_score, liquidity_score, public_interest_score} = details;
 
     // const {image} = details?.image?.large;
 
