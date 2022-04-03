@@ -5,6 +5,7 @@ import BdAddress from './components/BdAddress/BdAddress';
 import CoinDetails from './components/CoinDetails/CoinDetails';
 import Coins from './components/Coins/Coins';
 import Content from './components/Content/Content';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import UsAddress from './components/UsAddress/UsAddress';
@@ -26,6 +27,7 @@ function App() {
           <Route path='/about' element={<About />}></Route>
           <Route path='/coin-details/:id' element={<CoinDetails />}></Route>
         </Routes>
+        <Footer />
     </div>
   );
 }
